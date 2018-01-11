@@ -1,0 +1,27 @@
+.jumbotron, .panel, .panel-default {
+  opacity: .98;
+}
+
+.panel > .panel-heading {
+  background-image: none;
+  background-color: red;
+  color: white;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  opacity: .98;
+  z-index:2;
+}
+
+body {
+  background: url('http://www.clipartbest.com/cliparts/9iz/6dr/9iz6drqGT.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index:-100;
+}
